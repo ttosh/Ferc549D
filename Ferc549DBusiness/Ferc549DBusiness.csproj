@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D50473A5-FD89-4FAE-B59B-642E41D04A49}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ferc549DBusiness</RootNamespace>
+    <AssemblyName>Ferc549DBusiness</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xfaworker, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\itextsharp.xfaworker.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.7.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint">
+      <HintPath>lib\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ferc549DPDFPopulater.cs" />
+    <Compile Include="Ferc549DReconciler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XsdClasses\form1.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENT.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResData.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow1.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow2.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow3.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow3a.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow4.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow5.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow6.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow7.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow8.cs" />
+    <Compile Include="XsdClasses\form1RESPONDENTResDataRow9.cs" />
+    <Compile Include="XsdClasses\form1SDSet.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLING.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow3.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow4.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow5.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow6.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow7.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow8.cs" />
+    <Compile Include="XsdClasses\form1SDSetBILLINGRow9.cs" />
+    <Compile Include="XsdClasses\form1SDSetCONTRACT.cs" />
+    <Compile Include="XsdClasses\form1SDSetCONTRACTC_Data_Row1.cs" />
+    <Compile Include="XsdClasses\form1SDSetPageHeader2.cs" />
+    <Compile Include="XsdClasses\form1SDSetPageHeader2S_Data.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATES.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow10.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow11.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow12.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow13.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow3.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow4.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow5.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow6.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow7.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow8.cs" />
+    <Compile Include="XsdClasses\form1SDSetRATESRow9.cs" />
+    <Compile Include="XsdClasses\form1SDSetREVENUE.cs" />
+    <Compile Include="XsdClasses\form1SDSetREVENUERow3.cs" />
+    <Compile Include="XsdClasses\form1SDSetREVENUERow4.cs" />
+    <Compile Include="XsdClasses\form1SDSetREVENUERow5.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICE.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow3.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow4.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow5.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow6.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow7.cs" />
+    <Compile Include="XsdClasses\form1SDSetSERVICERow8.cs" />
+    <Compile Include="XsdClasses\form1SDSetSHIPPER.cs" />
+    <Compile Include="XsdClasses\form1SDSetSHIPPERS_Data.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ferc549DAttributes\Ferc549DAttributes.csproj">
+      <Project>{b5d320b6-80c8-4f56-8033-849fed6763a8}</Project>
+      <Name>Ferc549DAttributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferc549DDataAccess\Ferc549DDataAccess.csproj">
+      <Project>{05c65220-12d9-44ce-bdb0-b7e4563e3beb}</Project>
+      <Name>Ferc549DDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferc549DUtilities\Ferc549DUtilities.csproj">
+      <Project>{06ee8219-9146-4b8b-bcc7-f1ea6927cbc7}</Project>
+      <Name>Ferc549DUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\itextsharp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\itextsharp.licensekey.dll" />
+    <Content Include="lib\itextsharp.xfaworker.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\iTextSharp.xml" />
+    <Content Include="lib\itextsharp.xmlworker.dll" />
+    <Content Include="lib\Jint.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

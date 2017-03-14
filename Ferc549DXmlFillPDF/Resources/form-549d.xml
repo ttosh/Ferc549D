@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<form1 xmlns="http://ferc.gov/549D.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RESPONDENT>
+        <ResData>
+            <RHeader />
+            <Row1>
+                <CID_CompanyName>ONEOK GAS TRANSPORTATION, L.L.C.</CID_CompanyName>
+                <CID_ContactEmail>michele.hillhouse@oneok.com</CID_ContactEmail>
+            </Row1>
+            <Row2>
+                <CID_Company_ID>C000588</CID_Company_ID>
+                <CID_ContactStreetAddress>100 West Fifth St</CID_ContactStreetAddress>
+            </Row2>
+            <Row3>
+                <CID_Orgin_Resubmit>Original</CID_Orgin_Resubmit>
+                <CID_ContactCity>Tulsa</CID_ContactCity>
+            </Row3>
+            <Row3a>
+                <CID_Resubmit_Expln />
+                <CID_ContactState>OK</CID_ContactState>
+            </Row3a>
+            <Row4>
+                <CID_SubmitDate>2015-09-24</CID_SubmitDate>
+                <CID_ContactZip>74103</CID_ContactZip>
+            </Row4>
+            <Row5>
+                <CID_Transport_Y_N>Yes</CID_Transport_Y_N>
+                <CID_ContactCountry>USA</CID_ContactCountry>
+            </Row5>
+            <Row6>
+                <CID_Filing_Qtr>2014-Q4</CID_Filing_Qtr>
+                <CID_ContactSignTitle>Manager Accounting</CID_ContactSignTitle>
+            </Row6>
+            <Row7>
+                <CID_ContactName>Michele Hillhouse</CID_ContactName>
+                <CID_ContactSignName>Jeff Patterson</CID_ContactSignName>
+            </Row7>
+            <Row8>
+                <CID_ContactTitle>Office Specialist</CID_ContactTitle>
+                <CID_ContactSignDate>2015-01-01</CID_ContactSignDate>
+            </Row8>
+            <Row9>
+                <CID_ContactPhone>918-595-1575</CID_ContactPhone>
+            </Row9>
+        </ResData>
+        <TextField />
+        <FormNo />
+        <OMBNo />
+        <Version />
+    </RESPONDENT>
+    <SHIPDATA>
+        <SDSet>
+            <SHIPPER>
+                <S_Header />
+                <S_Data>
+                    <SD_Name>BP ENERGY COMPANY</SD_Name>
+                    <SD_ID_No>625275755</SD_ID_No>
+                    <SD_Affilite_Y_N>No</SD_Affilite_Y_N>
+                </S_Data>
+            </SHIPPER>
+            <CONTRACT>
+                <C_Data_Row1>
+                    <SD_Contract_No>1-IT3-0107</SD_Contract_No>
+                    <SD_Firm_Inter>Interruptible</SD_Firm_Inter>
+                    <SD_Contract_BegDate>2014/12</SD_Contract_BegDate>
+                    <SD_Contract_EndDate>2014/12</SD_Contract_EndDate>
+                </C_Data_Row1>
+            </CONTRACT>
+            <SERVICE>
+                <Row1 />
+                <Row3>
+                    <SD_TypeService>Transportation</SD_TypeService>
+                    <SD_ReceiptPt_CCode>OP0107</SD_ReceiptPt_CCode>
+                </Row3>
+                <Row4>
+                    <SD_TypeService_Other />
+                    <SD_ReceiptPt_CCode-Add />
+                </Row4>
+                <Row5>
+                    <SD_RateSched>ITS</SD_RateSched>
+                    <SD_DeliveryPt_Name>182151 : OZARK LEQUIRE</SD_DeliveryPt_Name>
+                </Row5>
+                <Row6>
+                    <SD_RateDocket>Docket No. CP99-71-000</SD_RateDocket>
+                    <SD_DeliveryPt_Name-Add />
+                </Row6>
+                <Row7>
+                    <SD_ReceiptPt_Name />
+                    <SD_DeliveryPt_CCode>182151</SD_DeliveryPt_CCode>
+                </Row7>
+                <Row8>
+                    <SD_ReceiptPt_Name-Add />
+                    <SD_DeliveryPt_CCode-Add>182151</SD_DeliveryPt_CCode-Add>
+                </Row8>
+            </SERVICE>
+            <RATES>
+                <Row2 />
+                <Row3>
+                    <RRes_Peak>.01</RRes_Peak>
+                    <RUse_Inj_Unit />
+                </Row3>
+                <Row4>
+                    <RRes_Peak_Discount />
+                    <RUse_Withdraw>.01</RUse_Withdraw>
+                </Row4>
+                <Row5>
+                    <RRes_Peak_Unit />
+                    <RUse_Withdraw_Discount />
+                </Row5>
+                <Row6>
+                    <RRes_Annual>.01</RRes_Annual>
+                    <RUse_Withdraw_Unit />
+                </Row6>
+                <Row7>
+                    <RRes_Annual_Discount />
+                    <RUse_Park_First>.01</RUse_Park_First>
+                </Row7>
+                <Row8>
+                    <RRes_Annual_Unit />
+                    <RUse_Park_First_Discount />
+                </Row8>
+                <Row9>
+                    <RUse_Transport>0.04</RUse_Transport>
+                    <RUse_Park_Second>0.04</RUse_Park_Second>
+                </Row9>
+                <Row10>
+                    <RUse_Transport_Discount />
+                    <RUse_Park_Second_Discount />
+                </Row10>
+                <Row11>
+                    <RUse_Transport_Unit>$/Dth</RUse_Transport_Unit>
+                    <RUse_Park_Unit />
+                </Row11>
+                <Row12>
+                    <RUse_Inj>.01</RUse_Inj>
+                    <RUse_Other />
+                </Row12>
+                <Row13>
+                    <RUse_Inj_Discount />
+                </Row13>
+            </RATES>
+            <PageHeader2>
+                <S_Header />
+                <S_Data>
+                    <SD_Name />
+                    <SD_Contract_No />
+                </S_Data>
+            </PageHeader2>
+            <BILLING>
+                <Row2 />
+                <Row3>
+                    <BURes_Peak>.01</BURes_Peak>
+                    <BUUse_Inj_Unit />
+                </Row3>
+                <Row4>
+                    <BURes_Peak_Unit />
+                    <BUUse_Withdraw>.01</BUUse_Withdraw>
+                </Row4>
+                <Row5>
+                    <BURes_Annual>.01</BURes_Annual>
+                    <BUUse_Withdraw_Unit />
+                </Row5>
+                <Row6>
+                    <BURes_Annual_Unit />
+                    <BUUse_Park_First>.01</BUUse_Park_First>
+                </Row6>
+                <Row7>
+                    <BUUse_Transport>9850</BUUse_Transport>
+                    <BUUse_Park_Second>90</BUUse_Park_Second>
+                </Row7>
+                <Row8>
+                    <BUUse_Transport_Unit>Dth</BUUse_Transport_Unit>
+                    <BUUse_Park_Unit />
+                </Row8>
+                <Row9>
+                    <BUUse_Inj>.01</BUUse_Inj>
+                    <BUUse_Other />
+                </Row9>
+            </BILLING>
+            <REVENUE>
+                <Row2 />
+                <Row3>
+                    <RevRes_Peak>0</RevRes_Peak>
+                    <RevUse_Other>0</RevUse_Other>
+                </Row3>
+                <Row4>
+                    <RevRes_Annual>0</RevRes_Annual>
+                    <Rev_GrandTotal>0</Rev_GrandTotal>
+                </Row4>
+                <Row5>
+                    <RevUse_Transport>0</RevUse_Transport>
+                </Row5>
+            </REVENUE>
+        </SDSet>
+        <SDSet>
+            <SHIPPER>
+                <S_Header />
+                <S_Data>
+                    <SD_Name>BP ENERGY COMPANY</SD_Name>
+                    <SD_ID_No>625275755</SD_ID_No>
+                    <SD_Affilite_Y_N>No</SD_Affilite_Y_N>
+                </S_Data>
+            </SHIPPER>
+            <CONTRACT>
+                <C_Data_Row1>
+                    <SD_Contract_No>1-IT3-0107</SD_Contract_No>
+                    <SD_Firm_Inter>Interruptible</SD_Firm_Inter>
+                    <SD_Contract_BegDate>2014/12</SD_Contract_BegDate>
+                    <SD_Contract_EndDate>2014/12</SD_Contract_EndDate>
+                </C_Data_Row1>
+            </CONTRACT>
+            <SERVICE>
+                <Row1 />
+                <Row3>
+                    <SD_TypeService>Transportation</SD_TypeService>
+                    <SD_ReceiptPt_CCode>OP0107</SD_ReceiptPt_CCode>
+                </Row3>
+                <Row4>
+                    <SD_TypeService_Other />
+                    <SD_ReceiptPt_CCode-Add />
+                </Row4>
+                <Row5>
+                    <SD_RateSched>ITS</SD_RateSched>
+                    <SD_DeliveryPt_Name>182151 : OZARK LEQUIRE</SD_DeliveryPt_Name>
+                </Row5>
+                <Row6>
+                    <SD_RateDocket>Docket No. CP99-71-000</SD_RateDocket>
+                    <SD_DeliveryPt_Name-Add />
+                </Row6>
+                <Row7>
+                    <SD_ReceiptPt_Name />
+                    <SD_DeliveryPt_CCode>182151</SD_DeliveryPt_CCode>
+                </Row7>
+                <Row8>
+                    <SD_ReceiptPt_Name-Add />
+                    <SD_DeliveryPt_CCode-Add>182151</SD_DeliveryPt_CCode-Add>
+                </Row8>
+            </SERVICE>
+            <RATES>
+                <Row2 />
+                <Row3>
+                    <RRes_Peak>.01</RRes_Peak>
+                    <RUse_Inj_Unit />
+                </Row3>
+                <Row4>
+                    <RRes_Peak_Discount />
+                    <RUse_Withdraw>.01</RUse_Withdraw>
+                </Row4>
+                <Row5>
+                    <RRes_Peak_Unit />
+                    <RUse_Withdraw_Discount />
+                </Row5>
+                <Row6>
+                    <RRes_Annual>.01</RRes_Annual>
+                    <RUse_Withdraw_Unit />
+                </Row6>
+                <Row7>
+                    <RRes_Annual_Discount />
+                    <RUse_Park_First>.01</RUse_Park_First>
+                </Row7>
+                <Row8>
+                    <RRes_Annual_Unit />
+                    <RUse_Park_First_Discount />
+                </Row8>
+                <Row9>
+                    <RUse_Transport>0.04</RUse_Transport>
+                    <RUse_Park_Second>0.04</RUse_Park_Second>
+                </Row9>
+                <Row10>
+                    <RUse_Transport_Discount />
+                    <RUse_Park_Second_Discount />
+                </Row10>
+                <Row11>
+                    <RUse_Transport_Unit>$/Dth</RUse_Transport_Unit>
+                    <RUse_Park_Unit />
+                </Row11>
+                <Row12>
+                    <RUse_Inj>.01</RUse_Inj>
+                    <RUse_Other />
+                </Row12>
+                <Row13>
+                    <RUse_Inj_Discount />
+                </Row13>
+            </RATES>
+            <PageHeader2>
+                <S_Header />
+                <S_Data>
+                    <SD_Name />
+                    <SD_Contract_No />
+                </S_Data>
+            </PageHeader2>
+            <BILLING>
+                <Row2 />
+                <Row3>
+                    <BURes_Peak>.01</BURes_Peak>
+                    <BUUse_Inj_Unit />
+                </Row3>
+                <Row4>
+                    <BURes_Peak_Unit />
+                    <BUUse_Withdraw>.01</BUUse_Withdraw>
+                </Row4>
+                <Row5>
+                    <BURes_Annual>.01</BURes_Annual>
+                    <BUUse_Withdraw_Unit />
+                </Row5>
+                <Row6>
+                    <BURes_Annual_Unit />
+                    <BUUse_Park_First>.01</BUUse_Park_First>
+                </Row6>
+                <Row7>
+                    <BUUse_Transport>9850</BUUse_Transport>
+                    <BUUse_Park_Second>90</BUUse_Park_Second>
+                </Row7>
+                <Row8>
+                    <BUUse_Transport_Unit>Dth</BUUse_Transport_Unit>
+                    <BUUse_Park_Unit />
+                </Row8>
+                <Row9>
+                    <BUUse_Inj>.01</BUUse_Inj>
+                    <BUUse_Other />
+                </Row9>
+            </BILLING>
+            <REVENUE>
+                <Row2 />
+                <Row3>
+                    <RevRes_Peak>0</RevRes_Peak>
+                    <RevUse_Other>0</RevUse_Other>
+                </Row3>
+                <Row4>
+                    <RevRes_Annual>0</RevRes_Annual>
+                    <Rev_GrandTotal>0</Rev_GrandTotal>
+                </Row4>
+                <Row5>
+                    <RevUse_Transport>0</RevUse_Transport>
+                </Row5>
+            </REVENUE>
+        </SDSet>
+    </SHIPDATA>
+</form1>
